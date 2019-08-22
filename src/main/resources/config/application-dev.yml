@@ -15,9 +15,15 @@
 
 logging:
   level:
-    ROOT: DEBUG
-    io.github.jhipster: DEBUG
-    io.github.jhipster.application: DEBUG
+    ROOT: INFO
+    io.github.jhipster: INFO
+    io.github.jhipster.application: INFO
+
+azure:
+  application-insights:
+    instrumentation-key: 00000000-0000-0000-0000-000000000000
+    logger:
+      level: info
 
 spring:
   profiles:
